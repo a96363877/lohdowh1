@@ -3,13 +3,14 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAdE8-9VwRjiqbKSImyUPu3hugol5jEMWA',
-  authDomain: 'ssdd-21562.firebaseapp.com',
-  projectId: 'ssdd-21562',
-  storageBucket: 'ssdd-21562.firebasestorage.app',
-  messagingSenderId: '884523274527',
-  appId: '1:884523274527:web:96d8f5c87cc5bfbe3a602a',
-  measurementId: 'G-0DPHLEMEBZ',
+  apiKey: "AIzaSyDNF8IclQF8rBFiq8yPA-4Bczxzx2IJSoY",
+  authDomain: "atar1-f0830.firebaseapp.com",
+  databaseURL: "https://atar1-f0830-default-rtdb.firebaseio.com",
+  projectId: "atar1-f0830",
+  storageBucket: "atar1-f0830.firebasestorage.app",
+  messagingSenderId: "973639712303",
+  appId: "1:973639712303:web:2f32be1d28949da178d0da",
+  measurementId: "G-M9JLXES2TP"
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
